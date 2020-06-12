@@ -1,0 +1,88 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.39">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.16">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>99</queueId>
+  <timestamp>1591915671216</timestamp>
+  <startTime>1591915671222</startTime>
+  <result>FAILURE</result>
+  <duration>1309</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    def container
+    
+    stage(&apos;Fetching&apos;) {
+      git &apos;http://git-server:10080/root/timeoff-management-application.git&apos;
+      shortCommit = sh(returnStdout: true, script: &apos;git rev-parse --short HEAD&apos;).trim()
+    }
+    
+    stage(&apos;Build image&apos;) {
+      container = docker.build(&apos;timeoff-mngmt-app&apos;)
+    }
+    
+    
+    stage(&apos;Push image&apos;) {
+      //The port that I use here is the one that I configured in the docker 
+      //repository in nexus3
+      docker.withRegistry(&apos;http://localhost:8100&apos;, &apos;nexus3-repository&apos;) {
+        container.push(&quot;${shortCommit}&quot;)
+        container.push(&apos;latest&apos;)
+      }
+    }
+    
+    stage(&apos;Deploy image&apos;) {
+        sh &apos;docker ps -f name=timeoff-mngmt-app -q | xargs --no-run-if-empty docker container stop&apos;
+        sh &apos;docker container ls -a -fname=timeoff-mngmt-app -q | xargs -r docker container rm&apos;
+        sh &apos;docker container prune -f&apos;
+        container.run(&quot;-p 3000:3000 --name timeoff-mngmt-app&quot;,&quot;npm start&quot;)
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>142812574</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>173929358</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>649601768</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>307118939</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>212198845</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>12</iota>
+    <head>1:12</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

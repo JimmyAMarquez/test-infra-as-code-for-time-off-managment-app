@@ -1,0 +1,45 @@
+version: '3'
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins
+    build:
+      context: jenkins
+      args:
+       DOCKERGID: $HOSTDOCKERGI     
+    ports:
+      - "8080:8080"
+    volumes:
+      - $PWD/jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - net
+  nexus:
+    container_name: nexus-server
+    image: nexus
+    ports:
+      - "8081:8081"
+      - "8100:8100"
+    build:
+      context: nexus
+      args:
+       PWDL: $PWD
+    volumes:
+      - $PWD/nexus-config/etc/karaf/system.properties:/opt/sonatype/nexus/etc/karaf/system.properties
+      - $PWD/nexus-data:/nexus-data
+    networks:
+      - net
+  git:
+    container_name: git-server
+    image: gogs
+    build:
+      context: gogs
+    ports:
+      - "10022:22"
+      - "10080:3000"
+    volumes:
+      - '$PWD/gogs-data:/data'
+    networks:
+      - net
+networks:
+  net:

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='cmakebuilder' version='2.6.3'><l:dependency name='CMake plugin' groupId='org.jenkins-ci.plugins' artifactId='cmakebuilder' version='2.6.3' url='https://github.com/jenkinsci/cmakebuilder-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT license' url=''/><l:license name='Eclipse Public License v1.0' url='http://www.eclipse.org/legal/epl-v10.html'/></l:dependency></l:dependencies>

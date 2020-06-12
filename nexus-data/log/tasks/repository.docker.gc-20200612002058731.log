@@ -1,0 +1,8 @@
+2020-06-12 00:20:58,731+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask - Task information:
+2020-06-12 00:20:58,735+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask -  ID: 53ca9cea-9fbb-450c-a454-cf8f49fb115e
+2020-06-12 00:20:58,735+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask -  Type: repository.docker.gc
+2020-06-12 00:20:58,735+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask -  Name: delete-imates
+2020-06-12 00:20:58,735+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask -  Description: Docker - Delete unused manifests and images
+2020-06-12 00:20:58,738+0000 WARN  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask - Repository 'timeoff-management' was not found while running task 'Docker - Delete unused manifests and images'
+2020-06-12 00:20:58,739+0000 WARN  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask - Task 'Docker - Delete unused manifests and images' was canceled
+2020-06-12 00:20:58,739+0000 INFO  [quartz-6-thread-16]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerGCTask - Task complete

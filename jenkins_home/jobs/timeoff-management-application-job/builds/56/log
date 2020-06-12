@@ -1,0 +1,168 @@
+Started by user [8mha:////4FEsZT+QULa6MEY9SuYyTtqgSTEkY5qwvKjdzxq4+7JSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4HCQ0x78GB4epZzHupidY1CqzhDV2lMop4NgXMhs7h0MAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PbQm39iVeJBgoiZrj2jz0fkXgQ2o+NcKFWMF0KvihIZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PTyGq5QnLw4lFOP3d8DAz8KFA/Kuy0Q5JsjyRQwrLQ0AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/timeoff-management-application-job
+[8mha:////4BSmnyftdi2fa8ya5PaDqDPZi7wc7Ti1onKiMtEq0PIUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Gn10cAT0SZyh1dp4RQ2fRPCMg5N0tIQJFLSlsoNKZp2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GXKvw31vliDKZqLolvwOJlf1tS8uRa6Zz89Rb5JRWfDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Fetching)
+[8mha:////4KVZLI524ZhOCckioWkj708oTTbZ2ZqqudMrgMVkNURhAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git-server:3000/root/timeoff-management-application.git # timeout=10
+Fetching upstream changes from http://git-server:3000/root/timeoff-management-application.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- http://git-server:3000/root/timeoff-management-application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8af52a4c484eb77f8242c533739bcbe8cd9f83e1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8af52a4c484eb77f8242c533739bcbe8cd9f83e1 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 8af52a4c484eb77f8242c533739bcbe8cd9f83e1 # timeout=10
+Commit message: "Incrementing version"
+ > git rev-list --no-walk 00fd0020bacd6db94c2011f822787ad8226826fc # timeout=10
+[8mha:////4CJ4RpJGO7zvb3K97lOxZIDVzgcmfHCGGuqbe/RsXUzgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ git rev-parse --short HEAD
+[8mha:////4KvNZ4TqAJ/vm13LPzIdV6kG0OqoIca2rlPa7Zj4diWjAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4FZXegXJZ5bFo8Q5blrQq2pE0IxlVLWSAkkNxwPkU6vHAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4Kuc/1FODjVQMt6SgqS30+ANhYELTAwImkKLl8nT2zguAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4D+9RqfBu/afrxTaqsla66q/5Dlf9+eAaiHH1kgyI4mzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Build image)
+[8mha:////4CRiNj0LInFfmHUNW9aDPbSnqknYqp8nmQIls/rb2xd0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4P5O92UgwdXRW/POhb8AK7pySsuJ320cA31Nd50586AiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] sh
++ docker build -t timeoff-mngmt-app .
+Sending build context to Docker daemon    122MB
+Step 1/12 : FROM alpine:3.8
+ ---> c8bccc0af957
+Step 2/12 : EXPOSE 3000
+ ---> Using cache
+ ---> 0146c3abede4
+Step 3/12 : LABEL org.label-schema.schema-version="1.0"
+ ---> Using cache
+ ---> ed6f585578d3
+Step 4/12 : LABEL org.label-schema.docker.cmd="docker run -d -p 3000:3000 --name alpine_timeoff"
+ ---> Using cache
+ ---> 5461b7b721b4
+Step 5/12 : RUN apk add --no-cache     git     make     nodejs npm     python     vim
+ ---> Using cache
+ ---> c30a12c73f7c
+Step 6/12 : RUN echo "Adding user"
+ ---> Using cache
+ ---> 184fbf3d4308
+Step 7/12 : RUN adduser --system app --home /app
+ ---> Using cache
+ ---> dca366b2eb11
+Step 8/12 : USER root
+ ---> Using cache
+ ---> 597734801885
+Step 9/12 : ADD . /app
+ ---> 9a41c2e3e7bd
+Step 10/12 : WORKDIR /app
+ ---> Running in dbe6e9c88e30
+Removing intermediate container dbe6e9c88e30
+ ---> 426183d5f25c
+Step 11/12 : RUN npm install
+ ---> Running in e3f4a17c8aa4
+
+> sqlite3@4.2.0 install /app/node_modules/sqlite3
+> node-pre-gyp install --fallback-to-build
+
+[91mnode-pre-gyp[0m[91m [0m[91mWARN [0m[91mUsing request for node-pre-gyp https download[0m[91m 
+[0m[sqlite3] Success: "/app/node_modules/sqlite3/lib/binding/node-v57-linux-x64/node_sqlite3.node" is installed via remote
+[91mnpm [0m[91mnotice created a lockfile as package-lock.json. You should commit this file.
+[0m[91mnpm [0m[91mWARN eslint-plugin-compat@3.7.0 requires a peer of eslint@^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm [0m[91mWARN TimeOff.Management@1.0.16 No repository field.
+[0m[91mnpm WARN TimeOff.Management@1.0.16 No license field.
+[0m[91m
+[0madded 21 packages from 31 contributors and audited 846 packages in 13.902s
+found 26 vulnerabilities (8 low, 1 moderate, 17 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Removing intermediate container e3f4a17c8aa4
+ ---> 9b9c9802f96c
+Step 12/12 : USER app
+ ---> Running in 5bafa363ed85
+Removing intermediate container 5bafa363ed85
+ ---> c3a9b53f061a
+Successfully built c3a9b53f061a
+Successfully tagged timeoff-mngmt-app:latest
+[8mha:////4MsIzd6bM5tTjgRX7YSyjn/yohISusFmCvz8SUnWjp+XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4NIu5/bXr0Txm6FQYZF8qZWv44XbYaoGlKe4SE+/MtaQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4JLzBnqkPLeuOxn/u8o3L6WnECMDV5XBZ8GALMGhL/mAAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4CXIVbmpnyLa3ow2GVH0Leqg3aLWC175YrYzOIwoY0xkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Push image)
+[8mha:////4DtQeM497yVP3uZeRmpMnj9uHjT7dBqPOFN6GYC61RbLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] withEnv
+[8mha:////4ObeyjCyiGX8iVN40sZ5BCY6UvkdBGURKT8NYzcq0HnDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4D6rK4VfMPAPhHRTrXOphVZk989+oUr8VFevX/kpQGq1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] withDockerRegistry
+$ docker login -u admin -p ******** http://localhost:8100
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/timeoff-management-application-job@tmp/e5f3c935-3eb3-46df-a210-72320cd01f0a/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4CVAzsbbb3dwRSd8QEdk6wdrY89YCe6zrh9yYTLjIPjyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4NpkPrnCHmvaVFHxwf8e6D4KliljjnvgZmdLmCULso1WAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4NuIkoj6gkwJl2Cm/IJUQ3zN/MnR+MMaVR1mGagVUSofAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AQQGEN6+AAAA[0m[Pipeline] sh
++ docker tag timeoff-mngmt-app localhost:8100/timeoff-mngmt-app:8af52a4
+[8mha:////4Hka4wYckOrTDLJM0Q6avhUlPWnwfadPAmzwIdeDNufdAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DUU3C8e+AAAA[0m[Pipeline] isUnix
+[8mha:////4OfLUCrgaPVaU9DrTfmw4/Sz+UeujVuDXNisQyNKiSscAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DYZkJuy+AAAA[0m[Pipeline] sh
++ docker push localhost:8100/timeoff-mngmt-app:8af52a4
+The push refers to repository [localhost:8100/timeoff-mngmt-app]
+d042bd19920a: Preparing
+594dcd20e875: Preparing
+4b633f5c3a0e: Preparing
+c80f3b38cfa6: Preparing
+7444ea29e45e: Preparing
+7444ea29e45e: Layer already exists
+c80f3b38cfa6: Layer already exists
+4b633f5c3a0e: Layer already exists
+d042bd19920a: Pushed
+594dcd20e875: Pushed
+8af52a4: digest: sha256:34a136932f57202d58bf0f848e45e3a7bd5c5946d6a9ad9ef847846d624e714f size: 1371
+[8mha:////4NuPsoVwM00AhoOtXCDclWzXi8Jp1dJxzJO0HTNCMycTAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DcdVPfW+AAAA[0m[Pipeline] isUnix
+[8mha:////4CEuaYZqbPuqQ3IPF0cfBKbzsZJTMOhwq0+l2vPleUm0AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiadDIxTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DQhJpXK+AAAA[0m[Pipeline] sh
++ docker tag timeoff-mngmt-app localhost:8100/timeoff-mngmt-app:latest
+[8mha:////4ADTvU0EwnwwX4513GNeqdA8h5BlkVwtbe0ZKLQJrLZuAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiadDPGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AUl4vmu+AAAA[0m[Pipeline] isUnix
+[8mha:////4IC0oePNYwYDRp/IuFifNMFsd4LUYU1YhaeRk7d2ulmaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMPsEZV3nOuz9Bzepvru+AAAA[0m[Pipeline] sh
++ docker push localhost:8100/timeoff-mngmt-app:latest
+The push refers to repository [localhost:8100/timeoff-mngmt-app]
+d042bd19920a: Preparing
+594dcd20e875: Preparing
+4b633f5c3a0e: Preparing
+c80f3b38cfa6: Preparing
+7444ea29e45e: Preparing
+7444ea29e45e: Layer already exists
+c80f3b38cfa6: Layer already exists
+594dcd20e875: Layer already exists
+d042bd19920a: Layer already exists
+4b633f5c3a0e: Layer already exists
+latest: digest: sha256:34a136932f57202d58bf0f848e45e3a7bd5c5946d6a9ad9ef847846d624e714f size: 1371
+[8mha:////4Hl51w+kE1Qw4xq9ULy/Bm1LbU18+DXe40IDObzu/gSTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1B9pXCo++AAAA[0m[Pipeline] }
+[8mha:////4KZXGHU0aRdLzWIISAaWBjS8CiSg2Fzwi7t2RuLpbdT9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B850l5C+AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CsLFc7d94Zve+DvSGWRryCmlSHkUdmlGO0xBMrj0Dz5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B/2XzCy+AAAA[0m[Pipeline] }
+[8mha:////4Aqb1nDIzeH229QOmLaqHxqSufrgfVjC+IVRbhxl087nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8iTDhjvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4P7P3u5hM36yFHkVdzSR+Bcz7MmfFPTw76+N+rwmlTcAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDEa9j374AAAA=[0m[Pipeline] }
+[8mha:////4BelRfMrIeygrA1384dxkBWvV/VTBna5fVPgoF/JWYSWAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwALsBIyb4AAAA=[0m[Pipeline] // stage
+[8mha:////4AMp8vGr1AZP3+Hm0axLMjqFHU7i+3tEwP0MLA4iOr/BAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgESBqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AyfFsNvBAAAA[0m[Pipeline] stage
+[8mha:////4IQSX/I70MExS4HZzvh8pCFQ2GrsSjRAp+bO2AgJxO/iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Deploy image)
+[8mha:////4AeM7v224GctJvFkM3AajnRZztAPGGwVJiGjN+ufAHWZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ docker ps -f name=timeoff-mngmt-app -q
++ xargs --no-run-if-empty docker container stop
+bf5d30f99cd6
+[8mha:////4MjLbMgcYKkxVYYCXGXry0qCWGXotnuLhy15blYsNTQlAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] sh
++ xargs -r docker container rm
++ docker container ls -a -fname=timeoff-mngmt-app -q
+bf5d30f99cd6
+[8mha:////4Ipm3Txtrf8wA4N+aaACI1hqG9oHsYwcnpo3G1dOC9jkAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAI9Ewz74AAAA=[0m[Pipeline] sh
++ docker container prune -f
+Total reclaimed space: 0B
+[8mha:////4IPAWhh7CXf7J19ljlUjk+EjMbv4fhpUiWipeVMvUTVvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wA4IId5L4AAAA=[0m[Pipeline] isUnix
+[8mha:////4NRQtVWMqC0Hl0It8ygAB2kfv7hL/27voOcqsifuY8dlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAIJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2Ccr6kGtf+w+hswb9vgAAAA==[0m[Pipeline] sh
++ docker run -d -p 3000:3000 --name timeoff-mngmt-app timeoff-mngmt-app npm start
+[8mha:////4CyCkx6O16PSBXIXRSFVW+Z2jiaymgposclYJVvqfemFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIGEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw+4IK7jvgAAAA==[0m[Pipeline] }
+[8mha:////4AWuuWspC36MY/unH9tstFNt8qpKnpCoQ4uLaiU3Oly4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+M7k24vgAAAA==[0m[Pipeline] // stage
+[8mha:////4OF3Xv36OFJCuB6s4RoDblBkr8u8cIOkFl5+E0eTmQpyAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAlk/IDb0AAAA=[0m[Pipeline] }
+[8mha:////4LuyYIYi3EHeF81i5lblwncAjRNHeKEb6g6ueoVIxG+dAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AIXzzK69AAAA[0m[Pipeline] // node
+[8mha:////4Ev+hLq+AuRyNJwUDT3robOEww7qw5Ld4rj6tddm+xIwAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A8JUm1u9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

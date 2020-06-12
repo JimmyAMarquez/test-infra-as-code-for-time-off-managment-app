@@ -1,0 +1,6 @@
+2020-06-12 03:05:41,493+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask - Task information:
+2020-06-12 03:05:41,495+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask -  ID: 181be8f6-c783-4589-a0d3-16f163fdf392
+2020-06-12 03:05:41,495+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask -  Type: repository.purge-unused
+2020-06-12 03:05:41,495+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask -  Name: Delete unused comp
+2020-06-12 03:05:41,495+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask -  Description: Purge unused components and assets from *
+2020-06-12 03:05:41,496+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.repository.purge.PurgeUnusedTask - Task complete

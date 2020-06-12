@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.cmake.CmakeTool_-DescriptorImpl plugin="cmakebuilder@2.6.3">
+  <installations class="hudson.plugins.cmake.CmakeTool-array">
+    <hudson.plugins.cmake.CmakeTool>
+      <name>InSearchPath</name>
+      <properties/>
+    </hudson.plugins.cmake.CmakeTool>
+  </installations>
+</hudson.plugins.cmake.CmakeTool_-DescriptorImpl>

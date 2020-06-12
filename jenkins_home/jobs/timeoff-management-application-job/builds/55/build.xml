@@ -1,0 +1,182 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.39">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>NODE_APP_PORT</name>
+          <description></description>
+          <value>3000</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>APP_CONTAINER_NAME</name>
+          <description></description>
+          <value>timeoff-mngmt-app</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>NODE_APP_PORT</string>
+        <string>APP_CONTAINER_NAME</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.16">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.2.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.2.1">
+              <sha1>00fd0020bacd6db94c2011f822787ad8226826fc</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>55</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://git-server:3000/root/timeoff-management-application.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.2.2">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/timeoff-management-application-job</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.11">
+      <revisionStates>
+        <entry>
+          <string>git http://git-server:3000/root/timeoff-management-application.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.80">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@2.3.8">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+  </actions>
+  <queueId>111</queueId>
+  <timestamp>1591931472767</timestamp>
+  <startTime>1591931472775</startTime>
+  <result>SUCCESS</result>
+  <duration>52395</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    def container
+    
+    stage(&apos;Fetching&apos;) {
+      git &apos;http://git-server:3000/root/timeoff-management-application.git&apos;
+      shortCommit = sh(returnStdout: true, script: &apos;git rev-parse --short HEAD&apos;).trim()
+    }
+    
+    stage(&apos;Build image&apos;) {
+      container = docker.build(&apos;${APP_CONTAINER_NAME}&apos;)
+    }
+    
+    
+    stage(&apos;Push image&apos;) {
+      //The port that I use here is the one that I configured in the docker 
+      //repository in nexus3
+      docker.withRegistry(&apos;http://localhost:8100&apos;, &apos;nexus3-repository&apos;) {
+        container.push(&quot;${shortCommit}&quot;)
+        container.push(&apos;latest&apos;)
+      }
+    }
+    
+    stage(&apos;Deploy image&apos;) {
+        //This deletes any existing container to deploy a new one with latest image
+        sh &apos;docker ps -f name=${APP_CONTAINER_NAME} -q | xargs --no-run-if-empty docker container stop&apos;
+        sh &apos;docker container ls -a -fname=${APP_CONTAINER_NAME} -q | xargs -r docker container rm&apos;
+        sh &apos;docker container prune -f&apos;
+        container.run(&quot;-p ${NODE_APP_PORT}:${NODE_APP_PORT} --name ${APP_CONTAINER_NAME}&quot;,&quot;npm start&quot;)
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>340155384</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>294762283</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1003020849</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>109757119</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>124866233</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>48</iota>
+    <head>1:48</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>http://git-server:3000/root/timeoff-management-application.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/timeoff-management-application-job</workspace>
+      <changelogFile>/var/jenkins_home/jobs/timeoff-management-application-job/builds/55/changelog3727141071844916394.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

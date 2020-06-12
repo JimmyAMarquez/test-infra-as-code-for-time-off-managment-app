@@ -1,0 +1,10 @@
+commit 0d80d47b6a29ea99d9b716665fd1be08318dac27
+tree c08c8982eb2cb1672aa525e702c1f4014638f500
+parent 8f48a27f450945729828849fd7fcf98e1a52984a
+author Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:55:48 -0400
+committer Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:55:48 -0400
+
+    Increasing version
+
+
+:100644 100644 b54b69aa8d0b06c01720eb08d585264d8e935d82 c42138fa41295dbb65ab18270707dde13daf8221 M	package.json

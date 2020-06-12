@@ -1,0 +1,7 @@
+2020-06-12 00:13:18,103+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask - Task information:
+2020-06-12 00:13:18,104+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  ID: 5d4948d1-21ec-4afd-be76-36f823a91f0a
+2020-06-12 00:13:18,104+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Type: repository.rebuild-index
+2020-06-12 00:13:18,104+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Name: Repair - Rebuild repository search
+2020-06-12 00:13:18,104+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Description: Rebuilding search index of timeoff-management
+2020-06-12 00:13:18,105+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository timeoff-management
+2020-06-12 00:13:18,224+0000 INFO  [quartz-6-thread-10]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask - Task complete

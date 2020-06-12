@@ -1,0 +1,20 @@
+commit 8f48a27f450945729828849fd7fcf98e1a52984a
+tree 1e3f52e20a4c983113365430feefade47c686c61
+parent c4f9638ff1b33a9461a44ba8a6e4c351afe2293e
+author Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:42:44 -0400
+committer Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:42:44 -0400
+
+    Adding the package
+
+
+:100644 100644 d6c6a897e6bf4bf297b180f5deb83d213624fdf2 b54b69aa8d0b06c01720eb08d585264d8e935d82 M	package.json
+commit c4f9638ff1b33a9461a44ba8a6e4c351afe2293e
+tree 300dc05d477f5d53ab8273d310a52b363242435b
+parent 00601ef176e1396245681e89f8017da05117fe80
+author Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:40:48 -0400
+committer Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:40:48 -0400
+
+    Enhancing the docker
+
+
+:100644 100644 7c4c136d711379599303e5137bf38c65e710fcb0 c2e315fdfeb37eff1a6336a11624865058825918 M	Dockerfile

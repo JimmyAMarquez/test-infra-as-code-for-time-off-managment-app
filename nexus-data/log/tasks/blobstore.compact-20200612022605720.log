@@ -1,0 +1,8 @@
+2020-06-12 02:26:05,720+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask - Task information:
+2020-06-12 02:26:05,722+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask -  ID: a4b538e0-2b6d-47dc-b254-2dfe08160156
+2020-06-12 02:26:05,722+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask -  Type: blobstore.compact
+2020-06-12 02:26:05,722+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask -  Name: Compact blob
+2020-06-12 02:26:05,722+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask -  Description: Compacting default blob store
+2020-06-12 02:26:05,724+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.file.FileBlobStore - Begin deleted blobs processing
+2020-06-12 02:26:05,822+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.file.FileBlobStore - Elapsed time: 98.13 ms, processed: 20/20
+2020-06-12 02:26:05,823+0000 INFO  [quartz-6-thread-19]  *SYSTEM org.sonatype.nexus.blobstore.compact.internal.CompactBlobStoreTask - Task complete

@@ -1,0 +1,10 @@
+commit 00601ef176e1396245681e89f8017da05117fe80
+tree c8a45919d1895622683de30aca3ac656a93abdf1
+parent deb8b2c12d47bdf2ed8830a7a2c2554d8d9f6ee4
+author Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:21:38 -0400
+committer Debian <debian@debian10.linuxvmimages.local> 2020-06-11 22:21:38 -0400
+
+    Enhancing login
+
+
+:100644 100644 34ed0fcf02f3680d73fa258f6d78c64d0eca1d8c 2bae5e619afd49b4d329272fdd347ac3610da6ab M	views/login.hbs

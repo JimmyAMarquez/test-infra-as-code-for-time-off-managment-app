@@ -1,0 +1,6 @@
+2020-06-12 00:11:00,104+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask - Task information:
+2020-06-12 00:11:00,105+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask -  ID: 5fdbc047-59ee-4be1-9194-b9f9d7ec5e41
+2020-06-12 00:11:00,106+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask -  Type: repository.docker.upload-purge
+2020-06-12 00:11:00,106+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask -  Name: delete incomplete snapshot
+2020-06-12 00:11:00,106+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask -  Description: Delete incomplete docker uploads
+2020-06-12 00:11:00,114+0000 INFO  [quartz-6-thread-9]  *SYSTEM org.sonatype.nexus.repository.docker.tasks.DockerUploadPurgeTask - Task complete
